@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-image: url("https://cdn.pixabay.com/photo/2022/12/01/17/52/sea-7629517_960_720.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100vh;
+}
+
+h1 {
+   padding: 20px 0;
+   text-align: center;
+}
+
+form {
+    background-image: linear-gradient(0deg,
+    #D9AFD9 0%, #97D9E1 100%);
+
+    width: fit-content;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+label {
+   display: inline-block;
+   width: 100px;
+}
+
+.lang-div,
+.gender-dive {
+   display: inline-block;
+}
+
+.lang-div label,
+.gender-dive label {
+   width: auto;
+   margin-right: 10px;
+}
+
+.inputs {
+   border-radius: 5px;
+   width: 300px;
+   padding: 10px;
+   margin-bottom: 20px;
+   border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.radio-check {
+   margin-bottom: 20px;
+   /* margin-left: 20px; */
+}
+
+.btn-container{
+   text-align: center;
+}
+
+.btn-container input {
+   width: 100px;
+   border-radius: 10px;
+   border: none;
+   background-color: hsl(299, 100%, 70%);
+   padding: 10px;
+}
+.btn-container input:hover {
+   background-color: hsl(299, 100%, 40%);
+   color: aliceblue;
+   font-weight: 700;
+   cursor: pointer;
+}
+
+.textarea-div * {
+   vertical-align: middle;
+}
